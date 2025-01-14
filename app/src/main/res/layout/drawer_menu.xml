@@ -1,0 +1,120 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#A52A2A">
+
+    <!-- Gambar Profil -->
+    <ImageView
+        android:id="@+id/profile_image"
+        android:src="@drawable/profile_image"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:scaleType="centerCrop" />
+
+    <!-- Nama -->
+    <TextView
+        android:id="@+id/tv_name"
+        android:text="Famela Okta Vianda"
+        android:textSize="18sp"
+        android:textColor="#FFFFFFFF"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Tempat/Tanggal Lahir -->
+    <TextView
+        android:id="@+id/tv_birth_place_date"
+        android:text="Sungai Penuh, 11 Oktober 2004"
+        android:textSize="16sp"
+        android:textColor="#FFFFFFFF"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Email -->
+    <TextView
+        android:id="@+id/tv_email"
+        android:text="famelaokta@gmail.com"
+        android:textSize="16sp"
+        android:textColor="#FFFFFFFF"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Nomor HP -->
+    <TextView
+        android:id="@+id/tv_phone"
+        android:text="+62 813 7457 2251"
+        android:textSize="16sp"
+        android:textColor="#FFFFFFFF"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Alamat -->
+    <TextView
+        android:id="@+id/tv_address"
+        android:text="Jl. Pramuka Gg. Kesuma"
+        android:textSize="16sp"
+        android:textColor="#FFFFFFFF"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Kelas -->
+    <TextView
+        android:id="@+id/tv_class"
+        android:text="RPL 5C"
+        android:textSize="16sp"
+        android:textColor="#FFFFFFFF"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Prodi -->
+    <TextView
+        android:id="@+id/tv_prodi"
+        android:text="Rekayasa Perangkat Lunak"
+        android:textSize="16sp"
+        android:textColor="#FFFFFFFF"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Jurusan -->
+    <TextView
+        android:id="@+id/tv_major"
+        android:text="Teknik Informatika"
+        android:textSize="16sp"
+        android:textColor="#FFFFFFFF"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp" />
+
+    <!-- Tombol List View -->
+    <TextView
+        android:id="@+id/tv_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="List View"
+        android:textSize="16sp"
+        android:textColor="#FFFFFFFF"
+        android:gravity="center"
+        android:background="#D2B48C"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:onClick="openListViewPage" />
+</LinearLayout>

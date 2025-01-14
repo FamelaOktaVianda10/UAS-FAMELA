@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Uas Famela Okta Vianda</string>
+    <string name="open">Open Drawer</string>
+    <string name="close">Close Drawer</string>
+    <string name="nama_wisata">Nama Wisata</string>
+    <string name="detail_data">Detail Data</string>
+    <string name="image_card">Image Card</string>
+    <string name="image_detail_wisata">Image Detail Kab/Kota</string>
+    <string name="lokasi">Lokasi</string>
+    <string name="rating">Rating</string>
+    <string name="detail">Detail</string>
+    <string name="ulasan">Ulasan</string>
+</resources>
